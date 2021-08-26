@@ -7,7 +7,7 @@ export const StyledMainContainer = styled(Grid)
       display: flex;
       justify-content: center;
       background-image: url(${Img});
-      background-size: auto;
+      background-size: cover;
       background-position: bottom 0px right 0px;
       background-repeat: no-repeat;
       width: 100%;
