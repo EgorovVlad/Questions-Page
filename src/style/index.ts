@@ -13,3 +13,12 @@ export const StyledMainContainer = styled(Grid)
       width: 100%;
       height: 100vh;
 		`;
+
+export const footerStyle:any = {
+	display: 'flex',
+	justifyContent: 'center',
+	position:'fixed',
+	bottom: '0',
+	width:'100%',
+
+};
