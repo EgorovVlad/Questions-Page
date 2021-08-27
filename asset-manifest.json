@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Questions-Page/static/css/main.17699652.chunk.css",
-    "main.js": "/Questions-Page/static/js/main.5045dc22.chunk.js",
-    "main.js.map": "/Questions-Page/static/js/main.5045dc22.chunk.js.map",
+    "main.js": "/Questions-Page/static/js/main.ede592e1.chunk.js",
+    "main.js.map": "/Questions-Page/static/js/main.ede592e1.chunk.js.map",
     "runtime-main.js": "/Questions-Page/static/js/runtime-main.a3a1d560.js",
     "runtime-main.js.map": "/Questions-Page/static/js/runtime-main.a3a1d560.js.map",
     "static/js/2.13139eba.chunk.js": "/Questions-Page/static/js/2.13139eba.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.a3a1d560.js",
     "static/js/2.13139eba.chunk.js",
     "static/css/main.17699652.chunk.css",
-    "static/js/main.5045dc22.chunk.js"
+    "static/js/main.ede592e1.chunk.js"
   ]
 }
