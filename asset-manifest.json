@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Questions-Page/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/Questions-Page/static/js/main.07f689ec.chunk.js",
-    "main.js.map": "/Questions-Page/static/js/main.07f689ec.chunk.js.map",
+    "main.css": "/Questions-Page/static/css/main.17699652.chunk.css",
+    "main.js": "/Questions-Page/static/js/main.72bf148c.chunk.js",
+    "main.js.map": "/Questions-Page/static/js/main.72bf148c.chunk.js.map",
     "runtime-main.js": "/Questions-Page/static/js/runtime-main.a3a1d560.js",
     "runtime-main.js.map": "/Questions-Page/static/js/runtime-main.a3a1d560.js.map",
     "static/js/2.13139eba.chunk.js": "/Questions-Page/static/js/2.13139eba.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.083dbe46.chunk.js": "/Questions-Page/static/js/3.083dbe46.chunk.js",
     "static/js/3.083dbe46.chunk.js.map": "/Questions-Page/static/js/3.083dbe46.chunk.js.map",
     "index.html": "/Questions-Page/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/Questions-Page/static/css/main.8c8b27cf.chunk.css.map",
+    "static/css/main.17699652.chunk.css.map": "/Questions-Page/static/css/main.17699652.chunk.css.map",
     "static/js/2.13139eba.chunk.js.LICENSE.txt": "/Questions-Page/static/js/2.13139eba.chunk.js.LICENSE.txt",
     "static/media/mainBG.2054ea20.jpg": "/Questions-Page/static/media/mainBG.2054ea20.jpg",
     "static/media/questLogo.74e78fa5.png": "/Questions-Page/static/media/questLogo.74e78fa5.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.a3a1d560.js",
     "static/js/2.13139eba.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.07f689ec.chunk.js"
+    "static/css/main.17699652.chunk.css",
+    "static/js/main.72bf148c.chunk.js"
   ]
 }
