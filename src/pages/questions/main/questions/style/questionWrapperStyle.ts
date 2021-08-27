@@ -9,8 +9,8 @@ export const StyledMainWrapper = styled.div`
 
   
   @media (max-width: 570px) {
-    //width: 85%;
-    height: auto;
+    width: 75%;
+    //height: auto;
   }
 	
 	
@@ -52,13 +52,12 @@ export const Styledh2 = styled.h2`
   @media (max-width: 320px) {
     font-size: 1.2rem;
   }
-	
+
   @media (max-width: 570px) {
-    font-size: 2rem;
+		
+    font-size: 1.6rem;
   }
-  @media (max-width: 375px) {
-    font-size: 1.5rem;
-  }
+  
 
 `;
 export const StyledPmain = styled.p`
@@ -128,16 +127,16 @@ export const StyledForm = styled.form`
   justify-content: center;
 
   @media (max-width: 570px) {
-    margin: 20px 0 20px 0;
+    margin: 50px 0 20px 0;
   }
-  @media (max-width: 375px) {
-    margin: 0;
-  }
+  //@media (max-width: 375px) {
+  //  margin: 0;
+  //}
 
-  @media (max-width: 768px) {
-    margin: 0;
-
-  }
+  //@media (max-width: 768px) {
+  //  margin: 0;
+  //
+  //}
 
 `;
 export const StyledInput = styled.input`

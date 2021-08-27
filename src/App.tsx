@@ -13,16 +13,16 @@ function App() {
 			<StyledMainContainer container spacing={0}>
 				<Grid sx={{
 					height:'25px'
-				}} item xs={12} sm={12}>
+				}} item xs={12} md={12}>
 					<Header/>
 				</Grid>
 
-				<Grid item xs={12} sm={12}>
+				<Grid item xs={12} md={12}>
 					<Questions/>
 				</Grid>
 
 
-				<Grid item sx={footerStyle} xs={12} sm={12}>
+				<Grid item sx={footerStyle} xs={12} md={12}>
 					<BottomTimer/>
 				</Grid>
 
