@@ -4,21 +4,15 @@ import {Button} from '@material-ui/core';
 export const StyledMainWrapper = styled.div`
   display: flex;
   width: 60%;
-  position: absolute;
-  top: 130px;
-  height: 500px;
   justify-content: center;
   align-items: center;
 
+  
   @media (max-width: 570px) {
-    width: 85%;
-    //margin: 10px;
+    //width: 85%;
     height: auto;
   }
-
-  //@media (min-width: 375px) {
-  //  height: auto;
-  //}
+	
 	
   @media (min-width: 1400px) {
     top: 140px;
@@ -27,30 +21,19 @@ export const StyledMainWrapper = styled.div`
   @media (min-width: 1600px) {
     top: 170px;
   }
-
-  @media (min-width: 1900px) {
-    top: 0;
-  }
-
-
+	
 `;
 
 export const StyledWrapper = styled.div`
   display: flex;
-  margin-top: 50px;
+  //margin-top: 50px;
   justify-content: center;
   width: 100%;
   align-items: center;
   flex-direction: column;
   color: #fff;
 
-  @media (min-width: 1200px) {
-    margin-left: 200px;
-  }
-
-  @media (min-width: 1700px) {
-    margin: 250px 0 0 250px;
-  }
+ 
   @media (min-width: 600px) and (max-width: 1000px) {
 
   }
@@ -65,7 +48,11 @@ export const Styledh2 = styled.h2`
   color: orange;
   margin: 0 0 10px 0;
   font-size: 3.5rem;
-
+	
+  @media (max-width: 320px) {
+    font-size: 1.2rem;
+  }
+	
   @media (max-width: 570px) {
     font-size: 2rem;
   }
@@ -80,17 +67,23 @@ export const StyledPmain = styled.p`
   text-align: center;
   font-size: 2rem;
 
-
+  @media (min-width: 320px) {
+    font-size: 1.2rem;
+  }
+  @media (min-width: 375px) {
+    font-size: 1.6rem;
+  }
+	
   @media (min-width: 570px) {
     font-size: 1.7rem;
   }
-  @media (max-width: 375px) {
-    font-size: 1.3rem;
-  }
+  //@media (max-width: 375px) {
+  //  font-size: 1.3rem;
+  //}
 
-  @media (max-width: 768px) {
-    font-size: 1.4rem;
-  }
+  //@media (max-width: 768px) {
+  //  font-size: 1.4rem;
+  //}
 
   @media (min-width: 1400px) {
     font-size: 2rem;
@@ -108,16 +101,23 @@ export const StyledPSecond = styled.p`
   margin: 20px 0 0 0;
   text-align: center;
   color: gainsboro;
-  @media (min-width: 570px) {
-    font-size: 2rem;
-  }
-  @media (max-width: 375px) {
+	
+  @media (min-width: 320px) {
     font-size: 1rem;
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 375px) {
     font-size: 1.3rem;
   }
+	
+  @media (min-width: 570px) {
+    font-size: 2rem;
+  }
+ 
+
+  //@media (max-width: 768px) {
+  //  font-size: 1.3rem;
+  //}
 `;
 
 export const StyledForm = styled.form`

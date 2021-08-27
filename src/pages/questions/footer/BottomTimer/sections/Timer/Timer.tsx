@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { StyledWrapper, TimeWrapper } from './style';
-
+import {StyledWrapper, TimeWrapper} from './style';
 
 function countdown(duration: number) {
 	return new Promise<any>(function(resolve, reject) {
@@ -19,9 +18,9 @@ export const Timer: React.FC = () => {
 		const timerSetter = (id: number) => {
 			if (min === 0) {
 				setMin(12);
-				return setSec(59);
-			}
-			else if  (sec === 0) {
+				setSec(59);
+				return id;
+			} else if (sec === 0) {
 				setSec(60);
 				setMin(min - 1);
 				return id;
@@ -33,7 +32,7 @@ export const Timer: React.FC = () => {
 		return () => {
 			clearInterval(id);
 		};
-	}, [min, sec ]);
+	}, [min, sec]);
 
 	return (
 			<StyledWrapper>

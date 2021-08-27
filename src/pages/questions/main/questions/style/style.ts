@@ -10,7 +10,8 @@ import {
 export const StyledContainer = styled(Box)
 		`
       display: flex;
-      width: 100%;
+      position: absolute;
+			right: 0;
       height: 80%;
       color: white;
       justify-content: center;

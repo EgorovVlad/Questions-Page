@@ -59,7 +59,11 @@ export const StyledImgIcond = styled.img<Iimg>`
   @media (max-width: 576px) {
     width: ${(props) => (props.widSm ? props.widSm : '20px')};
   }
-  @media(max-width: 768px){
+  @media (min-width: 320px) {
+    font-size: 1.2rem;
+  }
+	
+  @media(min-width: 768px){
     width: 40px;
   }
 	
