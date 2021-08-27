@@ -10,20 +10,19 @@ import {footerStyle, StyledMainContainer} from './style';
 
 function App() {
 	return (
-			<StyledMainContainer container>
-
-
-				<Grid item xs={12} md={12}>
+			<StyledMainContainer container spacing={0}>
+				<Grid sx={{
+					height:'25px'
+				}} item xs={12} sm={12}>
 					<Header/>
 				</Grid>
 
-
-				<Grid item xs={12} md={12}>
+				<Grid item xs={12} sm={12}>
 					<Questions/>
 				</Grid>
 
 
-				<Grid item sx={footerStyle} xs={12}>
+				<Grid item sx={footerStyle} xs={12} sm={12}>
 					<BottomTimer/>
 				</Grid>
 

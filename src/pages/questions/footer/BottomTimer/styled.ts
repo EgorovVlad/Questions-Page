@@ -4,6 +4,7 @@ export const StyledWrapper = styled.footer`
 	padding: 20px;
 	width: 80%;
   border-top: 2px solid gainsboro;
+	overflow: hidden;
   color: white;
 `;
 

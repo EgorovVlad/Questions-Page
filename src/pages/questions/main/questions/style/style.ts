@@ -17,18 +17,19 @@ export const StyledContainer = styled(Box)
       align-items: center;
 			
       .Mui-completed{
-			
         color: green !important;
       }
 			.Mui-active {
         content: ''!important;
 				color: yellow !important;
 			}
-
       text {
 				display: none;
 			}
-  
+      @media(max-width: 570px){
+				
+      }
+			
 		`;
 
 export const StyledTyp = styled(Typography)

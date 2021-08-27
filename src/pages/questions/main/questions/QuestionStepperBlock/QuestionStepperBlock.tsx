@@ -72,7 +72,7 @@ export const QuestionStepperBlock: React.FC = () => {
 	};
 	return (
 			<>
-				<Grid item sx={styleQuestionBlock} xs={10} md={10}>
+				<Grid item sx={styleQuestionBlock} xs={11} md={10}>
 
 					<StyledMainWrapper>
 						<StyledWrapper>
@@ -91,7 +91,7 @@ export const QuestionStepperBlock: React.FC = () => {
 				</Grid>
 
 
-				<Grid item xs={2} md={2}>
+				<Grid item xs={1} md={2}>
 					<MaterialStepper stepsLength={steps} nextStep={toggle}/>
 				</Grid>
 			</>

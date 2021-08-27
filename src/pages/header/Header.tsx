@@ -1,7 +1,7 @@
 import {Grid} from '@material-ui/core';
-import celloImg from '../../asserts/img/cello.png';
-import userIcond from '../../asserts/img/userIcon.svg';
-import questLogo from '../../asserts/img/questLogo.png';
+import celloImg from '../../assets/img/cello.png';
+import userIcond from '../../assets/img/userIcon.svg';
+import questLogo from '../../assets/img/questLogo.png';
 
 import {
 	StyledButton,
@@ -14,11 +14,13 @@ export const Header = () => {
 
 	return (
 			<StyledGridContainer container>
-				<StyledGrid item xs={8} md={8}>
+
+				<StyledGrid item xs={4} sm={8}>
 					<StyledImgCelo src={celloImg} alt=""/>
 				</StyledGrid>
 
-				<Grid item xs={4} md={4}>
+
+				<Grid item xs={8} sm={4}>
 					<div>
 						<StyledImgIcond src={userIcond} alt=""/>
 					</div>
@@ -28,7 +30,7 @@ export const Header = () => {
 						</StyledButton>
 					</div>
 					<div>
-						<StyledImgIcond wid={'100px'} src={questLogo}/>
+						<StyledImgIcond widSm={'45px'} wid={'100px'} src={questLogo}/>
 					</div>
 				</Grid>
 
