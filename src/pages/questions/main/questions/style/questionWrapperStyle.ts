@@ -10,7 +10,6 @@ export const StyledMainWrapper = styled.div`
   
   @media (max-width: 570px) {
     width: 75%;
-    //height: auto;
   }
 	
 	

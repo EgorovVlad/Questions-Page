@@ -3,16 +3,15 @@ import {Button, Grid} from '@material-ui/core';
 import {styled as styledMaterial} from '@material-ui/system';
 
 export const StyledImgCelo = styled.img`
-  width: 400px;
+  //width: 400px;
+  width: 30%;
   @media (max-width: 576px) {
-    //width: 200px;
-    height: 50px;
+    width: 130%;
   }
-
-  @media (max-width: 768px) {
-   width: 200px; 
-   
-  }
+  //@media (max-width: 768px) {
+  // width: 200px; 
+  // 
+  //}
 `;
 
 export const StyledGridContainer = styled(Grid)`
