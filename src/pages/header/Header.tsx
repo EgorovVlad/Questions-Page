@@ -7,7 +7,7 @@ import {
 	StyledButton,
 	StyledGrid,
 	StyledGridContainer, StyledImgCelo,
-	StyledImgIcond,
+	StyledImgIcondUser, StyledImgLogo,
 } from './style';
 
 export const Header = () => {
@@ -20,9 +20,13 @@ export const Header = () => {
 				</StyledGrid>
 
 
-				<Grid item xs={8} sm={4}>
+				<Grid item style={{
+					display:'flex',
+					justifyContent:'flex-end'
+				}} xs={8} sm={4}>
+
 					<div>
-						<StyledImgIcond src={userIcond} alt=""/>
+						<StyledImgIcondUser src={userIcond} alt=""/>
 					</div>
 					<div>
 						<StyledButton variant="outlined">
@@ -30,8 +34,9 @@ export const Header = () => {
 						</StyledButton>
 					</div>
 					<div>
-						<StyledImgIcond widSm={'45px'} wid={'100px'} src={questLogo}/>
+						<StyledImgLogo  src={questLogo}/>
 					</div>
+
 				</Grid>
 
 
