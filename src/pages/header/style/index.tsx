@@ -8,8 +8,8 @@ export const StyledImgCelo = styled.img`
   @media (max-width: 576px) {
     width: 130%;
   }
-  //@media (max-width: 768px) {
-  // width: 200px; 
+  //@media (min-width: 768px) {
+  // width: 40%; 
   // 
   //}
 `;
@@ -55,7 +55,7 @@ interface Iimg {
 
 export const StyledImgIcond = styled.img<Iimg>`
   width: ${(props) => (props.wid ? props.wid : '30px')};
-  @media (max-width: 576px) {
+  @media (max-width: 766px) {
     width: ${(props) => (props.widSm ? props.widSm : '20px')};
   }
   @media (min-width: 320px) {
@@ -64,6 +64,9 @@ export const StyledImgIcond = styled.img<Iimg>`
 	
   @media(min-width: 768px){
     width: 40px;
+  }
+  @media(min-width: 1200px){
+    width: 60px;
   }
 	
 `;

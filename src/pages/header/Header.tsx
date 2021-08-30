@@ -15,12 +15,12 @@ export const Header = () => {
 	return (
 			<StyledGridContainer container>
 
-				<StyledGrid item xs={4} md={8}>
+				<StyledGrid item xs={4} sm={8}>
 					<StyledImgCelo src={celloImg} alt=""/>
 				</StyledGrid>
 
 
-				<Grid item xs={8} md={4}>
+				<Grid item xs={8} sm={4}>
 					<div>
 						<StyledImgIcond src={userIcond} alt=""/>
 					</div>
